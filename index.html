@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arthur Costa | Estudante de TI</title>
+  <meta name="description" content="Portfólio de Arthur Costa, estudante de Informática no Cotemig em busca do primeiro estágio em TI.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <a href="#inicio" class="logo">arthur<span>.dev</span></a>
+
+    <nav class="menu" id="menu" aria-label="Navegação principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="topo-acoes">
+      <button id="botao-tema" class="botao-icone" type="button" aria-label="Alternar modo claro e escuro">🌙</button>
+      <button id="botao-menu" class="botao-icone botao-menu" type="button" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+
+
+    <section class="hero" id="inicio">
+      <div class="hero-texto">
+        <p class="rotulo">// olá, mundo </p>
+        <h1>Oi, eu sou o <span class="destaque">Arthur Costa</span></h1>
+        <p class="hero-descricao">
+          Estudante de Informática no Cotemig, apaixonado por tecnologia e sempre aprendendo algo novo.
+          Ainda estou começando, mas levo cada projeto até o fim.
+        </p>
+        <div class="hero-botoes">
+          <a href="#projetos" class="botao">Ver projetos</a>
+          <a href="#contato" class="botao botao-contorno">Fale comigo</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao" id="sobre">
+      <p class="rotulo">// sobre mim</p>
+      <h2>Quem sou eu?</h2>
+
+      <div class="sobre-grade">
+        <div class="sobre-texto">
+          <p>
+            Estudo no curso técnico de Informática no Cotemig, em Belo Horizonte. Desde cedo me encantei pela
+            área de TI e hoje estou construindo, projeto por projeto, a base para seguir carreira nesse setor.
+          </p>
+          <p>
+            Sou comunicativo e muito dedicado: quando começo algo, vou até o fim. Gosto de trabalhar em equipe,
+            de trocar ideias e de aprender com quem sabe mais do que eu. Estou em busca da minha
+            <strong>primeira oportunidade de estágio em TI</strong>.
+          </p>
+        </div>
+
+        <ul class="sobre-fatos">
+          <li><span>Escola</span>Cotemig, Técnico em Informática</li>
+          <li><span>Cidade</span>Belo Horizonte, MG</li>
+          <li><span>Objetivo</span>Estágio em TI</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="secao" id="habilidades">
+      <p class="rotulo">// habilidades</p>
+      <h2>O que eu sei</h2>
+
+      <p class="sub">hard skills</p>
+      <ul class="tags">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Git</li>
+        <li>SQL</li>
+      </ul>
+
+      <p class="sub">soft skills</p>
+      <ul class="tags roxo">
+        <li>Comunicativo</li>
+        <li>Dedicado</li>
+        <li>Trabalho em equipe</li>
+        <li>Proativo</li>
+        <li>Aprendizado rápido</li>
+        <li>Organizado</li>
+      </ul>
+    </section>
+
+    <section class="secao" id="projetos">
+      <p class="rotulo">// projetos</p>
+      <h2>O que eu construí</h2>
+
+      <div class="projetos">
+        <article class="cartao">
+          <span class="cartao-numero">01</span>
+          <h3>Calculadora Web</h3>
+          <p>Calculadora funcional feita com HTML, CSS e JavaScript puro.</p>
+          <ul class="tags pequeno">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li>
+          </ul>
+          <button type="button" class="botao-link" data-titulo="Calculadora Web"
+            data-texto="Minha primeira aplicação com lógica de verdade. Faz as quatro operações, trata divisão por zero e tem layout adaptado ao celular. Foi onde aprendi a manipular o DOM e eventos.">
+            Ver detalhes →
+          </button>
+        </article>
+
+        <article class="cartao">
+          <span class="cartao-numero">02</span>
+          <h3>Sistema de Cadastro</h3>
+          <p>Aplicação para cadastrar e gerenciar dados com Python e SQLite.</p>
+          <ul class="tags pequeno">
+            <li>Python</li><li>SQL</li>
+          </ul>
+          <button type="button" class="botao-link" data-titulo="Sistema de Cadastro"
+            data-texto="Sistema para cadastrar, listar, editar e excluir registros guardados em um banco SQLite. Foi meu primeiro contato prático com banco de dados e comandos SQL.">
+            Ver detalhes →
+          </button>
+        </article>
+
+        <article class="cartao">
+          <span class="cartao-numero">03</span>
+          <h3>Landing Page</h3>
+          <p>Página de apresentação responsiva com animações em CSS.</p>
+          <ul class="tags pequeno">
+            <li>HTML</li><li>CSS</li>
+          </ul>
+          <button type="button" class="botao-link" data-titulo="Landing Page"
+            data-texto="Página de apresentação pensada primeiro para o celular, com animações feitas só com CSS. Aqui aprendi Flexbox, Grid e media queries.">
+            Ver detalhes →
+          </button>
+        </article>
+
+        <article class="cartao">
+          <span class="cartao-numero">04</span>
+          <h3>Portfólio Pessoal</h3>
+          <p>Este site que você está vendo agora, feito do zero.</p>
+          <ul class="tags pequeno">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li>
+          </ul>
+          <button type="button" class="botao-link" data-titulo="Portfólio Pessoal"
+            data-texto="Meu portfólio, com modo claro e escuro, formulário com máscaras e validação, animações ao rolar a página e efeito de texto digitando. Tudo feito sem frameworks.">
+            Ver detalhes →
+          </button>
+        </article>
+      </div>
+
+      <a class="botao botao-contorno botao-github" href="https://github.com/ArthurCosta23k" target="_blank" rel="noopener noreferrer">
+        Ver mais no GitHub ↗
+      </a>
+    </section>
+
+    <section class="secao" id="contato">
+      <p class="rotulo">// contato</p>
+      <h2>Fale comigo</h2>
+      <p class="contato-intro">Tem uma duvida, uma oportunidade ou so quer trocar uma ideia? Manda uma mensagem que eu respondo.</p>
+
+      <form id="formulario" novalidate>
+        <label for="nome">NOME</label>
+        <input type="text" id="nome" name="nome" autocomplete="name" placeholder="Seu nome completo">
+
+        <label for="email">E-MAIL</label>
+        <input type="email" id="email" name="email" autocomplete="email" placeholder="voce@email.com">
+
+        <label for="telefone">TELEFONE</label>
+        <input type="tel" id="telefone" name="telefone" autocomplete="tel" placeholder="(31) 99999-9999" inputmode="numeric">
+
+        <label for="mensagem">MENSAGEM</label>
+        <textarea id="mensagem" name="mensagem" maxlength="300" placeholder="Escreva sua mensagem aqui..."></textarea>
+
+        <button type="submit" class="botao">Enviar mensagem</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="rodape-conteudo">
+      <div>
+        <p class="logo">arthur<span>.dev</span></p></div>
+
+      <ul class="rodape-contatos">
+        <li><a href="mailto:seuemail@exemplo.com">arthurcosta.ferreira9090@gmail.com</a></li>
+        <li><a href="https://github.com/SEU-USUARIO" target="_blank" rel="noopener noreferrer">github.com/ArthurCosta23k</a></li>
+        <li>Belo Horizonte, MG</li>
+      </ul>
+    </div>
+
+  <dialog id="modal">
+    <div class="modal-conteudo">
+      <h3 id="modal-titulo"></h3>
+      <p id="modal-texto"></p>
+      <button type="button" class="botao" id="modal-fechar">Fechar</button>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
